@@ -63,6 +63,7 @@ class SimuladorBancario:
             self.corriente.RetirarMonto(self.corriente.ConsultarSaldo)
             self.ahorros.RetirarMonto(self.ahorros.ConsultarSaldo())
             return "Retiraste el valor: "+total
+            
                 
 
     
